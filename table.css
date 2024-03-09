@@ -1,0 +1,36 @@
+
+table {
+    border: 2px solid gray;
+    width: 800px;
+    border-collapse: collapse;
+  }
+
+  table td, table th {
+    font-size: 1em;
+    border: 1px solid #000000;
+    padding: 5px 4px;
+  }
+
+  table th {
+    text-align: center;    
+    font-weight: bold;
+    color: #000000;
+    background: gray;
+  }
+
+  table td:first-child {
+    font-size: .5em;
+  }
+
+  table td:nth-child(3) {
+    text-align: right;    
+  }
+  table td:last-child {
+    text-align: center;    
+  }
+
+  table tr:hover {
+    color: white;
+    background: lightgray;
+    cursor: default;
+  }

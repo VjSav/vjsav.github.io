@@ -1,0 +1,27 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.pagination, .content, .filtr {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination a {
+    color: black;
+    text-decoration: none;
+    font-size: 60pt;
+    
+}
+
+.pagination a:hover:not(.active) {
+    color: lawngreen;
+}
+
+.pagination a:nth-child(2){
+    visibility: hidden;
+}
+
+.pagination a:first-child{
+    opacity: .3;
+}

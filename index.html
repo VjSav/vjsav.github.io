@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=800, initial-scale=1.0">
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="table.css">
+    <title>api.valantis.store</title>
+</head>
+
+<body>
+
+    <h1 align="center">api.valantis.store</h1>
+
+    <div class='filtr' id='filtr'>
+        <button onclick="clickFiltr(this)">&#128270;</button>
+        <input type="text" id="product" placeholder="Product" />
+        <input type="text" id="price" placeholder="Price" />
+        <input type="text" id="brand" placeholder="Brand" />
+        <button onclick="clickFiltrOff(this)">&#128711;</button>
+    </div>
+
+    <div class='content'>
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Brand</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <div class="pagination">
+        <a id="prev" href="#" onclick="clickArrow(this)">&lsaquo;</a>
+        <a id="ipage" href="#"> </a>
+        <a id="next" href="#" onclick="clickArrow(this)">&rsaquo;</a>
+    </div>
+
+</body>
+
+<script src="core.min.js"></script>
+<script src="md5.js"></script>
+<script src="script.js"></script>
+
+</html>

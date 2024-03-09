@@ -1,5 +1,5 @@
 // 
-const url = "http://api.valantis.store:40000/"
+const url = "https://api.valantis.store:40000/"
 console.log(url);
 
 let curPage = 1;

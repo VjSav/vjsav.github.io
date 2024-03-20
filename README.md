@@ -12,7 +12,17 @@ https://github.com/VjSav/vjsav.github.io/tree/main/TestTaskValantis
 
 Тестовые задачи GlobalIt
 <br>
-https://vjsav.github.io/GlobalIt/
+1 
 <br>
-https://github.com/VjSav/vjsav.github.io/tree/main/GlobalIt
-<br><br>
+https://vjsav.github.io/GlobalIt/1
+<br>
+https://github.com/VjSav/vjsav.github.io/tree/main/GlobalIt/1
+<br>
+2
+<br>
+https://github.com/VjSav/vjsav.github.io/tree/main/GlobalIt/2
+<br>
+3
+https://github.com/VjSav/vjsav.github.io/tree/main/GlobalIt/3
+<br>
+
